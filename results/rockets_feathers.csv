@@ -1,0 +1,7 @@
+long-run spec,test,pass-through up,pass-through down,Wald p,theta,ECT coef,ECT p
+no trend (plain Engle-Granger),"total, weeks 0-4",1.08,1.037,0.796,1.21,-0.005,0.39
+no trend (plain Engle-Granger),first week,0.486,0.25,0.071,1.21,-0.005,0.39
+no trend (plain Engle-Granger),first two weeks,0.794,0.528,0.115,1.21,-0.005,0.39
+with trend (recommended),"total, weeks 0-4",1.097,1.007,0.593,0.874,-0.023,0.073
+with trend (recommended),first week,0.489,0.245,0.064,0.874,-0.023,0.073
+with trend (recommended),first two weeks,0.794,0.509,0.096,0.874,-0.023,0.073

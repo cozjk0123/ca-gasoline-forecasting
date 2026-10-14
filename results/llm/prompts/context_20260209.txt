@@ -1,0 +1,179 @@
+You are a forecasting model. Use only the information in this message. Do not use tools, browse, or look anything up. Reply with JSON only.
+
+Series: California regular gasoline, all formulations, average retail price in U.S. dollars per gallon (U.S. Energy Information Administration weekly survey, collected each Monday).
+Forecast origin: 2026-02-09. The last 156 weekly observations (date,price) are:
+
+2023-02-20,4.518
+2023-02-27,4.586
+2023-03-06,4.704
+2023-03-13,4.732
+2023-03-20,4.656
+2023-03-27,4.634
+2023-04-03,4.625
+2023-04-10,4.682
+2023-04-17,4.725
+2023-04-24,4.694
+2023-05-01,4.661
+2023-05-08,4.638
+2023-05-15,4.615
+2023-05-22,4.609
+2023-05-29,4.643
+2023-06-05,4.648
+2023-06-12,4.709
+2023-06-19,4.689
+2023-06-26,4.649
+2023-07-03,4.651
+2023-07-10,4.675
+2023-07-17,4.721
+2023-07-24,4.709
+2023-07-31,4.828
+2023-08-07,4.901
+2023-08-14,4.981
+2023-08-21,5.102
+2023-08-28,5.106
+2023-09-04,5.146
+2023-09-11,5.254
+2023-09-18,5.549
+2023-09-25,5.699
+2023-10-02,5.901
+2023-10-09,5.604
+2023-10-16,5.399
+2023-10-23,5.223
+2023-10-30,5.066
+2023-11-06,4.944
+2023-11-13,4.870
+2023-11-20,4.769
+2023-11-27,4.719
+2023-12-04,4.596
+2023-12-11,4.457
+2023-12-18,4.359
+2023-12-25,4.371
+2024-01-01,4.479
+2024-01-08,4.459
+2024-01-15,4.339
+2024-01-22,4.273
+2024-01-29,4.294
+2024-02-05,4.366
+2024-02-12,4.422
+2024-02-19,4.467
+2024-02-26,4.440
+2024-03-04,4.651
+2024-03-11,4.693
+2024-03-18,4.734
+2024-03-25,4.801
+2024-04-01,4.904
+2024-04-08,5.142
+2024-04-15,5.271
+2024-04-22,5.237
+2024-04-29,5.172
+2024-05-06,5.116
+2024-05-13,5.046
+2024-05-20,4.965
+2024-05-27,4.892
+2024-06-03,4.808
+2024-06-10,4.679
+2024-06-17,4.599
+2024-06-24,4.564
+2024-07-01,4.533
+2024-07-08,4.535
+2024-07-15,4.487
+2024-07-22,4.428
+2024-07-29,4.370
+2024-08-05,4.355
+2024-08-12,4.330
+2024-08-19,4.318
+2024-08-26,4.325
+2024-09-02,4.406
+2024-09-09,4.450
+2024-09-16,4.515
+2024-09-23,4.490
+2024-09-30,4.412
+2024-10-07,4.408
+2024-10-14,4.428
+2024-10-21,4.406
+2024-10-28,4.326
+2024-11-04,4.292
+2024-11-11,4.253
+2024-11-18,4.196
+2024-11-25,4.202
+2024-12-02,4.177
+2024-12-09,4.141
+2024-12-16,4.096
+2024-12-23,4.094
+2024-12-30,4.105
+2025-01-06,4.154
+2025-01-13,4.161
+2025-01-20,4.212
+2025-01-27,4.221
+2025-02-03,4.253
+2025-02-10,4.392
+2025-02-17,4.603
+2025-02-24,4.606
+2025-03-03,4.533
+2025-03-10,4.481
+2025-03-17,4.432
+2025-03-24,4.418
+2025-03-31,4.585
+2025-04-07,4.731
+2025-04-14,4.666
+2025-04-21,4.614
+2025-04-28,4.588
+2025-05-05,4.552
+2025-05-12,4.648
+2025-05-19,4.691
+2025-05-26,4.626
+2025-06-02,4.549
+2025-06-09,4.479
+2025-06-16,4.427
+2025-06-23,4.444
+2025-06-30,4.360
+2025-07-07,4.328
+2025-07-14,4.280
+2025-07-21,4.257
+2025-07-28,4.234
+2025-08-04,4.270
+2025-08-11,4.266
+2025-08-18,4.271
+2025-08-25,4.352
+2025-09-01,4.397
+2025-09-08,4.422
+2025-09-15,4.468
+2025-09-22,4.468
+2025-09-29,4.446
+2025-10-06,4.452
+2025-10-13,4.457
+2025-10-20,4.426
+2025-10-27,4.358
+2025-11-03,4.434
+2025-11-10,4.500
+2025-11-17,4.476
+2025-11-24,4.404
+2025-12-01,4.357
+2025-12-08,4.273
+2025-12-15,4.163
+2025-12-22,4.076
+2025-12-29,4.042
+2026-01-05,4.034
+2026-01-12,3.978
+2026-01-19,3.977
+2026-01-26,4.040
+2026-02-02,4.177
+2026-02-09,4.314
+
+Market brief as of Monday 09 February 2026 (only information available on that date):
+- Brent crude, average of the previous week: $69.84/bbl; 12 weeks earlier: $62.87/bbl; 12-week range $60.83-$70.43.
+- Brent weekly averages, last 13 weeks (oldest first): 62.9, 63.6, 64.4, 64.0, 62.6, 60.8, 63.2, 62.2, 62.9, 67.0, 67.0, 70.4, 69.8.
+- U.S. average regular gasoline this week: $2.902/gal; California premium over U.S.: $1.41/gal (52-week average premium $1.32).
+- West Coast (PADD 5) gasoline stocks, latest released week: 29,975 thousand bbl (-6.6% vs. same week, prior 5-year average).
+- West Coast refinery gross inputs, latest released week: 2,129 thousand bbl/day (+1.5% vs. same week, prior 5-year average).
+- Season: California is currently in the winter-grade (Nov-Mar) gasoline season. Summer-grade season runs April-October; the state gasoline excise tax adjusts each July 1.
+- California refinery and market events to date:
+- Apr 2020: Marathon Martinez idled (renewable conversion) (permanent capacity loss)
+- Feb 2024: Phillips 66 Rodeo stops crude processing (permanent capacity loss)
+- Oct 2025: Phillips 66 Los Angeles phased closure (Q4 2025) (permanent capacity loss)
+
+Forecast the California regular gasoline price (USD/gal) for each of the next 12 weeks (the Mondays from 2026-02-16 to 2026-05-04).
+
+Return exactly this JSON and nothing else:
+{"median": [12 numbers], "p10": [12 numbers], "p90": [12 numbers], "rationale": "one sentence"}
+Element i is the forecast for week i ahead (i = 1..12). p10 and p90 are the 10th and 90th percentiles (an 80% interval). Ensure p10 <= median <= p90 for every week.

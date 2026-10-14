@@ -1,0 +1,6 @@
+series,ADF p,KPSS p,verdict
+log CA price,0.142,0.01,unit root
+Δ log CA price,0.0,0.1,stationary
+log Brent,0.117,0.01,unit root
+Δ log Brent,0.0,0.1,stationary
+CA–US spread,0.734,0.01,unit root

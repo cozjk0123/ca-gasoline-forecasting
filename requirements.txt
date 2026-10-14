@@ -1,0 +1,17 @@
+# core (data, conventional models, evaluation)
+pandas>=2.2
+numpy>=1.26
+scipy>=1.11
+statsmodels>=0.14
+statsforecast>=2.0
+matplotlib>=3.8
+requests
+xlrd
+openpyxl
+jupyter
+# foundation models (notebook 05 only)
+torch
+chronos-forecasting>=2.0
+uni2ts            # Moirai; on Python 3.12+ install with --no-deps, then: einops jaxtyping jax hydra-core gluonts lightning
+# optional: re-run the LLM prompts through the API (notebook 06)
+anthropic

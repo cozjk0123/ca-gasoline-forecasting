@@ -1,0 +1,21 @@
+column,definition,units,source
+date,EIA survey Monday (week index),date,EIA
+ca_gas,"California regular gasoline retail price, all formulations",USD/gal,EIA EMM_EPMR_PTE_SCA_DPG
+us_gas,"U.S. regular gasoline retail price, all formulations",USD/gal,FRED GASREGW
+ca_us_spread,ca_gas - us_gas,USD/gal,derived
+brent,"Brent spot, mean of previous Mon-Fri",USD/bbl,FRED DCOILBRENTEU
+wti,"WTI spot, mean of previous Mon-Fri (robustness only)",USD/bbl,FRED DCOILWTICO
+brent_gal,brent / 42,USD/gal,derived
+p5_inputs,"PADD 5 refiner gross inputs, latest week released by t",thousand bbl/day,EIA WGIRIP52
+p5_stocks,"PADD 5 total gasoline stocks, latest week released by t",thousand bbl,EIA WGTSTP51
+log_*,natural log of the series (NaN if <= 0),log,derived
+dlog_*,weekly change in log (approx. % change),log diff,derived
+d_ca_gas,weekly change in ca_gas,USD/gal,derived
+ev_summer_blend,1 in Apr-Oct (CARB summer gasoline season),0/1,rule
+ev_july_tax,"1 in the 4 weeks after July 1 excise adjustment, 2010+",0/1,rule
+ev_<event>,event dummies; definitions and sources in events.csv,0/1,events.csv
+closures_cum,number of permanent CA refinery closures to date,count,events.csv
+*_ndays,trading days in the crude weekly average,count,derived
+*_filled,1 if crude value carried forward (no trading days that week),0/1,derived
+*_week_end,week-ending Friday of the PADD 5 value used,date,EIA WPSR
+split,"train if date < 2025-07-01, else test",label,derived

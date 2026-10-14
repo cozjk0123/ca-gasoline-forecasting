@@ -1,0 +1,12 @@
+name,kind,start,end,description,source,verify
+richmond_fire_2012,pulse,2012-08-06,2012-10-29,"Chevron Richmond crude unit fire (Aug 6, 2012)",U.S. Chemical Safety Board report,False
+torrance_2012,pulse,2012-10-01,2012-10-29,Oct 2012 supply crunch (Torrance power outage),CEC; news coverage Oct 2012,True
+torrance_2015,pulse,2015-02-16,2016-05-30,"ExxonMobil Torrance explosion (Feb 18, 2015), reduced output until mid-2016",U.S. Chemical Safety Board report,False
+covid,pulse,2020-03-16,2020-06-29,COVID-19 demand collapse,"CA stay-at-home order, Mar 19, 2020",False
+fall_2022_outages,pulse,2022-09-19,2022-10-31,Multiple refinery outages; early winter-blend order,"CEC; Governor order Sep 30, 2022",False
+martinez_fire_2025,pulse,2025-02-03,2025-04-28,"PBF Martinez refinery fire (Feb 1, 2025)",news coverage Feb 2025,True
+iran_war_2026,pulse,2026-02-23,2026-12-31,"Iran war / Strait of Hormuz disruption, crude shock","Wikipedia '2026 Iran war fuel crisis'; CNBC timeline Apr 21, 2026",False
+marathon_martinez,step,2020-04-27,,Marathon Martinez idled (renewable conversion),company announcement 2020,True
+p66_rodeo,step,2024-02-05,,Phillips 66 Rodeo stops crude processing,"company announcement (Rodeo Renewed), early 2024",True
+p66_los_angeles,step,2025-10-06,,Phillips 66 Los Angeles phased closure (Q4 2025),"Phillips 66 8-K Oct 16, 2024; Nasdaq/Zacks on phased closure",False
+valero_benicia,step,2026-04-27,,"Valero Benicia ends fuel production (~Apr 30, 2026)","Argus Media Apr 30, 2026",False
